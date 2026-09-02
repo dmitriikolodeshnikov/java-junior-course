@@ -1,4 +1,4 @@
-package week_03.day_20_getters_setters.src;
+package week_03.day_20_getters_setters.task_01;
 
 public class UserProfile {
     private String name;
@@ -18,9 +18,7 @@ public class UserProfile {
     }
 
     public void setName(String name) {
-        if (name != null || !name.isEmpty()) {
-            this.name = name;
-        }
+        this.name = name;
     }
 
     public void setAge(int age) {
@@ -30,7 +28,7 @@ public class UserProfile {
     }
 
     public void setEmail(String email) {
-        if (email != null && email.contains("@")) {
+        if (email != null || !email.isEmpty()) {
             this.email = email;
         }
     }
