@@ -1,4 +1,4 @@
-package week_03.day_18_this.src;
+package week_03.day_18_this.task_01;
 
 public class Employee {
     String name;
@@ -9,11 +9,5 @@ public class Employee {
         this.name = name;
         this.salary = salary;
         this.position = position;
-    }
-
-    void printInfo() {
-        System.out.println("Name: " + name);
-        System.out.println("Salary: " + salary);
-        System.out.println("Position: " + position);
     }
 }
