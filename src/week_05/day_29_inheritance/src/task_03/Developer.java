@@ -1,4 +1,4 @@
-package week_05.day_01_inheritance.src.task_03;
+package week_05.day_29_inheritance.src.task_03;
 
 public class Developer extends Employee {
     public Developer(String name) {

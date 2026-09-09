@@ -1,4 +1,4 @@
-package week_05.day_01_inheritance.src.task_01;
+package week_05.day_29_inheritance.src.task_01;
 
 public class Car extends Vehicle {
     public Car(String brand) {

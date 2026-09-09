@@ -1,4 +1,4 @@
-package week_05.day_01_inheritance.src;
+package week_05.day_29_inheritance.src;
 
 public class Animal {
     String name;
