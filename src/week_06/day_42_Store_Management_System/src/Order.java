@@ -1,12 +1,13 @@
 package week_06.day_42_Store_Management_System.src;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
     private long id;
     private User user;
     private OrderStatus status = OrderStatus.NEW;
-    private List<OrderItem> items;
+    private List<OrderItem> items = new ArrayList<>();
 
     public Order(long id, User user) {
         this.id = id;
@@ -32,6 +33,7 @@ public class Order {
     public void addItem(Product product, int quantity) {
         if (quantity <=0) {
             System.out.println("Invalid quantity!");
+            return;
         }
 
         items.add(new OrderItem(product, quantity));

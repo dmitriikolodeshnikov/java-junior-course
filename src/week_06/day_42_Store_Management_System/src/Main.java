@@ -37,7 +37,17 @@ public class Main {
 
         order.setStatus(OrderStatus.PROCESSING);
 
-        store;
+        store.addOrder(order);
+
+        System.out.println("Order: ");
+        System.out.println(order);
+
+        System.out.println("Items: ");
+
+        order.printItems();
+
+        System.out.println("Orders: ");
+        store.printOrders();
 
 
 
